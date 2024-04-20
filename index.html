@@ -3,87 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>プロフィールと業績</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #444;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 10px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 28px;
-        }
-
-        h2 {
-            font-size: 24px;
-        }
-
-        h3 {
-            font-size: 20px;
-        }
-    </style>
+    <title>プロフィール</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>プロフィールと業績</h1>
+        <nav>
+            <ul>
+                <li><a href="#name">名前</a></li>
+                <li><a href="#birthplace">出身地</a></li>
+                <li><a href="#career">経歴</a></li>
+                <li><a href="#hobbies">趣味</a></li>
+                <li><a href="#research">研究業績</a></li>
+                <li><a href="#awards">受賞歴</a></li>
+                <li><a href="?lang=en">English</a></li>
+            </ul>
+        </nav>
     </header>
+    
+    <section id="name">
+        <h2>名前</h2>
+        <p>山田 太郎</p>
+    </section>
+    
+    <section id="birthplace">
+        <h2>出身地</h2>
+        <p>東京都</p>
+    </section>
+    
+    <section id="career">
+        <h2>経歴</h2>
+        <p>ここに経歴を記述</p>
+    </section>
+    
+    <section id="hobbies">
+        <h2>趣味</h2>
+        <p>ここに趣味を記述</p>
+    </section>
+    
+    <section id="research">
+        <h2>研究業績</h2>
+        <p>ここに研究業績を記述</p>
+    </section>
+    
+    <section id="awards">
+        <h2>受賞歴</h2>
+        <p>ここに受賞歴を記述</p>
+    </section>
 
-    <nav>
-        <a href="#profile">プロフィール</a>
-        <a href="#research">研究業績</a>
-        <a href="#awards">受賞歴</a>
-    </nav>
-
-    <div class="container">
-        <section id="profile">
-            <section id="profile">
-                <h2>プロフィール</h2>
-                <p>2020年 IEEE大学工学部 卒業</p>
-                <p>2022年 IEEE大学大学院 修了</p>
-            </section>
-        </section>
-
-        <section id="research">
-            <h2>研究業績</h2>
-            <h3>査読付き論文</h3>
-            <p>ここに査読付き論文に関する情報を記述してください。</p>
-
-            <h3>国際学会</h3>
-            <p>ここに国際学会での発表に関する情報を記述してください。</p>
-
-            <h3>国内学会</h3>
-            <p>ここに国内学会での発表に関する情報を記述してください。</p>
-        </section>
-
-        <section id="awards">
-            <h2>受賞歴</h2>
-            <p>ここに受賞歴に関する情報を記述してください。</p>
-        </section>
-    </div>
+    <script src="script.js"></script>
 </body>
+</html>
