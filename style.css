@@ -4,10 +4,9 @@ body {
     padding: 0;
 }
 
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
+nav {
+    background-color: #f4f4f4;
+    padding: 10px 0;
 }
 
 nav ul {
@@ -27,6 +26,12 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #007bff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
 }
 
 section {
